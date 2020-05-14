@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,8FAAsF;AAE9F,CAAC;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;;AAK1B,MAAC;EACG,eAAe,EAAE,IAAI;AAErB,OAAE;EACE,eAAe,EAAE,IAAI",
+"sources": ["../partichen/_global.scss"],
+"names": [],
+"file": "style.css"
+}
