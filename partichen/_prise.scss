@@ -1,0 +1,72 @@
+.prise{
+    padding: 77px 30px 0 0;
+    text-align: center;
+    background: {
+        color:$color_mint;
+    }
+    p{
+        color:$color_white;
+        padding-bottom: 60px;
+        font:{
+            size:21px;
+            family:$f_montserrat;
+        }
+    }
+    &__block{
+        padding-bottom: 200px;
+        transform: scale(1);
+        transition:  1s ease;
+        &:hover{
+           transform: scale(1.1);
+        }
+    }
+    &__items{
+        background-color: $color_white;
+        font-family: $f_raleway;
+        border-radius: 10px 10px 0px 0px;
+        p, span{
+            color:$color_silver ;
+            font-size: 17px;
+             padding: 15px;
+        }
+       
+        b{
+            display: block;
+            padding: 15px;
+            background-color: $color_black;
+            color: $color_white;
+            font:{
+                weight:normal;
+                family:$f_montserrat;
+            }
+        }
+        h2{
+            font-size: 35px;
+            background-color:#504c4c;
+            padding: 5px;
+        }
+        button{
+            border: none;
+             display: block;
+             background: rgba(196, 196, 196, 0.3);
+            width: 100%;
+           padding: 20px;
+            text-transform: uppercase;
+            color:$color_mint;
+            font-weight: bold;
+            border: 1px solid rgba(196, 196, 196, 0.3);
+            &:hover{
+                background-color: $color_mint/1.2;
+                color:$color_white;
+            }
+        }
+        li{
+            font: {
+                weight:bold;
+            size: 17px;
+        }
+    line-height: 2em;
+        }
+    
+    }
+}

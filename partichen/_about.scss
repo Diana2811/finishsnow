@@ -1,0 +1,20 @@
+.about{
+    padding: 400px  0 100px 0;
+   
+    h3{
+        font-weight: bold;
+        font-size: 17px;
+        color:$color_black;
+        border-top: 4px solid $color_mint;
+        padding: 15px 0 0 0;
+    }
+    &__item{
+        color:$color_silver;
+        font:{
+            family:$f_montserrat;
+           size: 17px;
+    line-height: 1em; 
+    }
+        text-align: center;
+}
+}

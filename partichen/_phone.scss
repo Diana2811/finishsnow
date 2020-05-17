@@ -1,0 +1,31 @@
+.phone{
+    position: relative;
+    background: {
+        image:url(images/bg_2.jpg);
+        repeat:no-repeat;
+        size:cover;
+       position: center top;
+        attachment:fixed;
+    }
+    height: 715px;
+    text-align: center;
+    h2{
+        padding: 77px 30px 0 0;
+    }
+    p{
+        padding: 0 50px;
+        color:$color_white;
+        font:{
+            size:21px;
+            family:$f_montserrat;
+        }
+        line-height: 1.5em;
+    }
+    img{
+        height: 710px;
+        position: relative;
+        left: 3%;
+        right: 0;
+        top: 70px;
+    }
+}

@@ -1,0 +1,48 @@
+.registration{
+    height: 800px;
+    background:#F2F2F2;
+    padding: 200px 0;
+    text-align: center;
+    position: relative;
+    &__pic{
+        width: 73px;
+        height: 73px;
+        display: block;
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        top:25%;
+        font-size: 30px;
+        border-radius: 50%;
+        border: 3px solid $color_mint;
+    }
+    h2{
+        margin: 100px 0 30px ;
+    }
+    p{
+        padding: 0 60px 50px;
+        color:$color_black;
+        font:{
+            size:21px;
+            family:$f_montserrat;
+        }
+}
+   input{
+       margin: 5px;
+        width: 380px;
+       font-size: 21px;
+       color:$color_silver;
+       padding: 10px 35px;
+       border-radius: 4px;
+    }
+    [type=button]{
+        background-color: $color_mint;
+        width: 175px;
+        font-size: 17px;
+        padding: 10px;
+        color: $color_white;
+        &:hover{
+                background-color: $color_mint/1.2;
+    }
+}
+}
