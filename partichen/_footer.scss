@@ -1,0 +1,31 @@
+.footer{
+    padding:122px 0;
+    background-color: $color_white;
+    font:{
+        size:21px;
+        family:$f_montserrat;
+    }
+    line-height: 1.5em;
+    color:$color_silver;
+    &__social{
+text-align: right;
+    }
+    a{
+        
+        font: {
+            size:25px;
+        }
+    border: 1px solid $color_silver;
+        border-radius: 5px;
+        color: $color_silver;
+        padding: 5px;
+    }
+    .facebook{
+        padding:5px 8px;
+    }
+}
+@media screen and (max-width:768px){
+    .footer__social, p{
+        text-align: center;
+    }
+}

@@ -9,6 +9,9 @@ body a {
 body ul {
   list-style-type: none; }
 
+@media screen and (max-width: 768px) {
+  .social {
+    text-align: left; } }
 .title--white, .title--black {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -31,7 +34,6 @@ body ul {
     font-size: 55px;
     padding: 240px 30px 0 0; }
   .header p {
-    padding: 0 70px;
     color: #ffffff;
     font-size: 21px;
     font-family: "Montserrat", sans-serif;
@@ -50,18 +52,24 @@ body ul {
     width: 175px;
     display: inline-block;
     font-size: 14px;
-    margin: 30px;
+    margin: 15px;
     border-radius: 4px; }
     .header__item:hover, .header__items:hover {
       color: #70CBCE;
       background-color: rgba(255, 255, 255, 0.7);
       text-decoration: none; }
-  .header .menu {
-    color: #ffffff;
-    font-size: 14px;
+  .header__logo {
+    text-align: left; }
+  .header__menu {
+    display: flex;
     justify-content: flex-end; }
+    .header__menu a {
+      color: #ffffff;
+      font-size: 14px;
+      margin: 5px; }
   .header__button {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 30px; }
   .header__mouse {
     width: 30px;
     height: 50px;
@@ -91,35 +99,40 @@ body ul {
   .phone h2 {
     padding: 77px 30px 0 0; }
   .phone p {
-    padding: 0 50px;
+    padding: 0 50px 70px;
     color: #ffffff;
     font-size: 21px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.5em; }
+  .phone__iPhone {
+    position: absolute; }
   .phone img {
-    height: 710px;
-    position: relative;
-    left: 3%;
-    right: 0;
-    top: 70px; }
+    height: 710px; }
 
 .about {
-  padding: 400px  0 100px 0; }
+  padding: 400px 0 100px 0; }
   .about h3 {
     font-weight: bold;
     font-size: 17px;
     color: #231F20;
-    border-top: 4px solid #70CBCE;
     padding: 15px 0 0 0; }
   .about__item {
+    margin: 15px;
+    padding-bottom: 50px;
     color: #929496;
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
-    font-line-height: 1em;
+    line-height: 1em;
     text-align: center; }
+    .about__item--plum {
+      border-top: 4px solid #6D3F96; }
+    .about__item--mint {
+      border-top: 4px solid #70CBCE; }
+    .about__item--yellow {
+      border-top: 4px solid #FDC05D; }
 
 .prise {
-  padding: 77px 30px 0 0;
+  padding: 77px 30px 200px 0;
   text-align: center;
   background-color: #70CBCE; }
   .prise p {
@@ -128,15 +141,16 @@ body ul {
     font-size: 21px;
     font-family: "Montserrat", sans-serif; }
   .prise__block {
-    padding-bottom: 200px;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    padding-bottom: 30px;
     transform: scale(1);
     transition: 1s ease; }
     .prise__block:hover {
       transform: scale(1.1); }
   .prise__items {
     background-color: #ffffff;
-    font-family: "Raleway", sans-serif;
-    border-radius: 10px 10px 0px 0px; }
+    font-family: "Raleway", sans-serif; }
     .prise__items p, .prise__items span {
       color: #929496;
       font-size: 17px;
@@ -179,7 +193,6 @@ body ul {
   .registration__pic {
     width: 73px;
     height: 73px;
-    display: block;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
@@ -187,6 +200,10 @@ body ul {
     font-size: 30px;
     border-radius: 50%;
     border: 3px solid #70CBCE; }
+  .registration a {
+    font-size: 30px;
+    color: #70CBCE;
+    padding-top: 10px; }
   .registration h2 {
     margin: 100px 0 30px; }
   .registration p {
@@ -209,5 +226,27 @@ body ul {
     color: #ffffff; }
     .registration [type=button]:hover {
       background-color: #5da9ac; }
+
+.footer {
+  padding: 122px 0;
+  background-color: #ffffff;
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
+  color: #929496; }
+  .footer__social {
+    text-align: right; }
+  .footer a {
+    font-size: 25px;
+    border: 1px solid #929496;
+    border-radius: 5px;
+    color: #929496;
+    padding: 5px; }
+  .footer .facebook {
+    padding: 5px 8px; }
+
+@media screen and (max-width: 768px) {
+  .footer__social, p {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

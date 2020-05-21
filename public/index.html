@@ -5,25 +5,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
 </head>
 <body>
     <section class="header">
         <div class="container">
-            <div class="row justify-content-space-end">
-            <div class="menu ">
-                <img class="logo" src="images/logo.svg" alt="">
-                <ul class="menus__item">
-                    <li class="menu__item">Prising</li>
-                    <li class="menu__item">Sing in</li>
-                </ul>
+            <div class="row justify-content-between">
+            <div class="col-6 header__logo ">
+                <img class="logo " src="images/logo.svg" alt="">
                 </div>
+                <ul class=" col-6 header__menu">
+                    <li class="menu__item"><a href="#">Prising</a></li>
+                    <li class="menu__item"><a href="#">Sing in</a></li>
+                </ul>
+                
                 <div class="row justify-content-center">
-                    <div class="col">
+                    <div class="col-9">
                         <h1 class="title--white">Lorem ipsum dolor sit amet.</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid accusantium dolorem perferendis, dolorum id ipsa a, itaque blanditiis ipsum, maiores tenetur consectetur architecto voluptas est quidem, ullam consequuntur. Ea, ducimus.</p>
-                        <div class="header__button col-12 ">
-                        <a href="" class="header__item ">Learn more</a>
-                        <a href="" class="header__items ">Request invite</a>
+                        <div class="header__button col">
+                        <a href="" class="header__item col-12 col-lg-6">Learn more</a>
+                        <a href="" class="header__items col-12 col-lg-6">Request invite</a>
                         </div>
                     </div>
                 </div>
@@ -37,10 +39,12 @@
     <section class="phone">
         <div class="container">
             <div class="row justify-content-center">
-            <div class="col">
+            <div class="col-12">
                 <h2 class="title--white">Lorem ipsum dolor.</h2>
                 <p>Nihil illum exercitationem architecto aspernatur atque provident tempore, ad eum! Perspiciatis iusto deleniti dolores. Recusandae dignissimos, quam, magnam dolore aspernatur </p>
-                <div class="iPhone col d-none d-md-block">
+            </div>
+            <div class="row justify-content-center d-none d-md-block">
+                <div class="iPhone col">
                 <img src="images/phone.png" alt="" ></div>
             </div>
             </div>
@@ -49,17 +53,19 @@
     <section class="about">
         <div class="container">
             <div class="row">
-            <div class="col-12 col-lg-4 about__item"><h3>Lorem ipsum dolor sit.</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, voluptas, magni. Esse sint magnam doloremque. Quae, velit aliquam impedit repellendus laborum labore ex dolor, consequatur, culpa provident dignissimos non iure!</p></div>
-            <div class="col-12 col-lg-4 about__item"><h3>Lorem ipsum dolor sit.</h3><p>Deleniti error consequatur modi aperiam ex harum quia ipsa quam sunt. Obcaecati voluptate nostrum asperiores harum, itaque atque, consequuntur unde, quidem nam commodi autem nesciunt id placeat nulla ducimus vel!`</p></div>
-            <div class="col-12 col-lg-4 about__item"><h3>Lorem ipsum dolor sit.</h3><p>Quod inventore nemo, repellat rerum soluta asperiores, perferendis. Sit quae deleniti voluptate sapiente aperiam incidunt natus explicabo maxime suscipit aspernatur, sunt nisi eius aut. Explicabo voluptatem animi, iure quas nobis.</p></div>
+            <div class="about__item--plum col-12 col-lg-4 "><h3>Lorem ipsum dolor sit.</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, voluptas, magni. Esse sint magnam doloremque. Quae, velit aliquam impedit repellendus laborum labore ex dolor, consequatur, culpa provident dignissimos non iure!</p></div>
+            <div class="col-12 col-lg-4 about__item--mint"><h3>Lorem ipsum dolor sit.</h3><p>Deleniti error consequatur modi aperiam ex harum quia ipsa quam sunt. Obcaecati voluptate nostrum asperiores harum, itaque atque, consequuntur unde, quidem nam commodi autem nesciunt id placeat nulla ducimus vel!`</p></div>
+            <div class="col-12 col-lg-4 about__item--yellow"><h3>Lorem ipsum dolor sit.</h3><p>Quod inventore nemo, repellat rerum soluta asperiores, perferendis. Sit quae deleniti voluptate sapiente aperiam incidunt natus explicabo maxime suscipit aspernatur, sunt nisi eius aut. Explicabo voluptatem animi, iure quas nobis.</p></div>
             </div>
         </div>
     </section>
     <section class="prise">
         <div class="container">
             <div class="row justify-content-center">
+               <div class="col-12">
                 <h2 class="title--white">Lorem ipsum dolor.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente laudantium vitae neque est impedit, sequi.</p>
+                </div>
                 <div class="prise__block col-12 col-lg-4">
                 <div class="prise__items"><b>Personal</b><h2 class="title--white">$5<span>/m</span></h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, expedita.</p>
                 <ul class="prise__item">
@@ -90,7 +96,7 @@
         <div class="container">
             <div class="row justify-content-center">
             <div class="letter">
-                <a  href="" class="registration__pic"><i class="fal fa-envelope"></i></a>
+                <a  href="" class="registration__pic"><i class="far fa-envelope"></i></a>
                 <h2 class="title--black">Lorem ipsum.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis atque pariatur culpa esse vero architecto cupiditate asperiores excepturi ea repellat ducimus </p>
                 <div class="registration__form col-12">
@@ -103,7 +109,17 @@
     </section>
     <section class="footer">
         <div class="container">
-            <div class="row">Eos, commodi, fugit, eveniet rem iure nemo animi mollitia unde asperiores libero fugiat sed harum nulla quidem rerum impedit velit laborum autem qui, enim repellendus! Quibusdam deleniti iste, magnam labore.</div>
+            <div class="row justify-content-center ">
+                <div class="col-10 col-md-6">
+                    <p class="footer__right">2020-All right reserved</p>
+                    
+                </div>
+                <div class="footer__social col-10 col-md-6">
+                        <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="" class="instagram"><i class="fab fa-instagram-square"></i></a>
+                        <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+            </div>
         </div>
     </section>
 </body>

@@ -1,5 +1,5 @@
 .prise{
-    padding: 77px 30px 0 0;
+    padding: 77px 30px 200px 0;
     text-align: center;
     background: {
         color:$color_mint;
@@ -13,7 +13,9 @@
         }
     }
     &__block{
-        padding-bottom: 200px;
+         border-radius: 10px 10px 0px 0px;
+        overflow: hidden;
+        padding-bottom: 30px;
         transform: scale(1);
         transition:  1s ease;
         &:hover{
@@ -23,7 +25,7 @@
     &__items{
         background-color: $color_white;
         font-family: $f_raleway;
-        border-radius: 10px 10px 0px 0px;
+       
         p, span{
             color:$color_silver ;
             font-size: 17px;
